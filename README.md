@@ -1,3 +1,13 @@
+# Spring Cloud Config Client Example
+
+## Steps taken
+```
+$ npx create-react-app io.dashaun.npm.spring-coud-config-client
+$ cd io.dashaun.npm.spring-cloud-config-client
+$ npm install nice-config
+
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

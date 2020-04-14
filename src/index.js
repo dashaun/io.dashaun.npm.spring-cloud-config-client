@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const Config = require('nice-config');
+
+export const initialize = async () => {
+    await Config.load();
+    // ... other initializations
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
